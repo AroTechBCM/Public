@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone https://github.com/AroTechBCM/Public.git /Users/minigames/Documents/Public)",
+      "Bash(git init)",
+      "Bash(git remote add origin https://github.com/AroTechBCM/Public.git)",
+      "Bash(git fetch origin)",
+      "Bash(git reset --hard origin/main)",
+      "Bash(git reset --hard origin/master)",
+      "Bash(git add .claude/)",
+      "Bash(git commit -m \"Add .claude directory\")",
+      "Bash(git push origin main)"
+    ]
+  }
+}
