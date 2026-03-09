@@ -9,7 +9,12 @@
       "Bash(git reset --hard origin/master)",
       "Bash(git add .claude/)",
       "Bash(git commit -m \"Add .claude directory\")",
-      "Bash(git push origin main)"
+      "Bash(git push origin main)",
+      "Bash(brew install gh)",
+      "Bash(gh auth login)",
+      "Bash(gh auth setup-git)",
+      "Bash(git add -A)",
+      "Bash(git commit -m \"Add Review directory and update settings\")"
     ]
   }
 }
